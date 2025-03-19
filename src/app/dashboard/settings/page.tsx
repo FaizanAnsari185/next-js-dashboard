@@ -16,7 +16,7 @@ const Settings = () => {
               Quick Links
             </h2>
             <ul className="space-y-3 sm:space-y-4">
-              <li className="shadow-2xl rounded-lg">
+              <li className="rounded-lg border border-indigo-500">
                 <Link
                   href="/dashboard/settings/account"
                   className="flex items-center text-md sm:text-lg text-gray-800 hover:text-indigo-600 transition-colors py-2 px-4 rounded-md hover:bg-indigo-50"
@@ -24,7 +24,7 @@ const Settings = () => {
                   <span>Account</span>
                 </Link>
               </li>
-              <li className="shadow-2xl rounded-lg">
+              <li className="rounded-lg border border-yellow-500">
                 <Link
                   href="/dashboard/settings/notifications"
                   className="flex items-center text-md sm:text-lg text-gray-800 hover:text-yellow-600 transition-colors py-2 px-4 rounded-md hover:bg-yellow-50"
@@ -32,7 +32,7 @@ const Settings = () => {
                   <span>Notifications</span>
                 </Link>
               </li>
-              <li className="shadow-2xl rounded-lg">
+              <li className="rounded-lg border border-green-500">
                 <Link
                   href="/dashboard/settings/profile"
                   className="flex items-center text-md sm:text-lg text-gray-800 hover:text-green-600 transition-colors py-2 px-4 rounded-md hover:bg-green-50"
